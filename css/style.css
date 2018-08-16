@@ -1,0 +1,26 @@
+body { font-family: 'lato', Arial, Helvetica, sans-serif;
+        font-size: 13px;
+
+}
+
+table, tr, td, th, thead {
+    border: 1px solid gray; 
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F5F5F5; 
+}
+
+.cabecalho1 {
+    background-color: #0078C1;
+    color: white;
+}
+.cabecalho2 {
+    background-color: #009E2C;
+    color: white;
+}
