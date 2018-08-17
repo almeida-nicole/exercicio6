@@ -54,6 +54,7 @@ button {
 button:hover {
     box-shadow: 2px 3px 10px #979797;
     text-shadow: 2px 3px 10px #979797;
+    cursor: pointer;
 }
 
 .check {
@@ -69,6 +70,7 @@ button:hover {
 }
 td {
     text-align: center;
+    padding: 7px;
 }
 .subtitulo {
     text-align: left;
