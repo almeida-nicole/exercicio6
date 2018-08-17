@@ -1,26 +1,69 @@
-body { font-family: 'lato', Arial, Helvetica, sans-serif;
-        font-size: 13px;
-
+body {
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: gray;
 }
 
 table, tr, td, th, thead {
-    border: 1px solid gray; 
+    border: 1px solid gray;
+    padding: 5px;
 }
 
 table {
     border-collapse: collapse;
-    
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #F5F5F5; 
+    background-color: #F5F5F5;
+}
+h3 {
+    font-weight: normal;
+    font-size: 13px;
 }
 
+.cabecalho1, .cabecalho2 {
+    color: white;
+    padding: 0px 16px;
+}
 .cabecalho1 {
     background-color: #0078C1;
-    color: white;
 }
 .cabecalho2 {
     background-color: #009E2C;
+}
+.titulo {
+    color: #4A4A4A;
+
+}
+.titulo th {
+    font-weight: bold;
+    font-size: 16px;
+    width: 187px;
+    height: 100px;
+}
+button {
+    background-color: #FF5406;
     color: white;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    margin-top: 15px;
+}
+button:hover {
+    box-shadow: 2px 3px 10px #979797;
+    text-shadow: 2px 3px 10px #979797;
+}
+
+.check {
+    font-size: 15px;
+    text-align: center;
+}
+
+.check--blue {
+    color: #0078C1;
+}
+.check--green {
+    color: #009E2C;
 }
