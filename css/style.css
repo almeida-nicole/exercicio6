@@ -1,11 +1,11 @@
 body {
     font-family: 'open sans', Arial, Helvetica, sans-serif;
     font-size: 13px;
-    color: gray;
+    color: #4A4A4A;
 }
 
 table, tr, td, th, thead {
-    border-right: 1px solid gray;
+    border-right: 1px solid #c5c1c1;
     padding: 5px;
 }
 
@@ -39,7 +39,7 @@ h3 {
     font-weight: bold;
     font-size: 16px;
     width: 187px;
-    height: 100px;
+    height: 120px;
 }
 button {
     background-color: #FF5406;
@@ -69,4 +69,7 @@ button:hover {
 }
 td {
     text-align: center;
+}
+.subtitulo {
+    text-align: left;
 }
